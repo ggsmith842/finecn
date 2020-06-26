@@ -1,15 +1,16 @@
 Package: finecn
-Title: What the Package Does (One Line, Title Case)
+Title: Carries out basic finance based calculations and performs simple analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Grant",
+           family = "Smith",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "grant.oferrell.smith@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: This package contains functions that can be used to carry out common calculations used in basic finance.
+  Additionally, the package contains the ability to perform funadmental analysis of stock returns using CAPM. 
+  Technical analysis is also avaliable to find trends in stock price using moving averages.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -17,4 +18,6 @@ RoxygenNote: 7.1.0
 LinkingTo: 
     Rcpp
 Imports: 
-    Rcpp
+    Rcpp,
+    plotly,
+    magrittr
