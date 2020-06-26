@@ -40,7 +40,7 @@ pv(1595.35,.05,5)
 capm(.01,2.3,.08)
 #[1] 19.4
 
-#determine if a stock is over/under valued based on CAPM a
+#determine if a stock is over/under valued based on CAPM where arg 1 is found using `capm` and argument is the expected return of the stock.
 capmValue(19.4,11.2)
 #The stock is overvalued
 ```
